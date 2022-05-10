@@ -1,0 +1,18 @@
+.articleUpdate {
+  display: grid;
+  gap: 10px;
+}
+
+.articleUpdate__form {
+  display: grid;
+  gap: 10px;
+}
+
+.articleUpdate__image {
+  width: 100%;
+}
+
+.articleUpdate__text {
+  height: 300px;
+  resize: none;
+}

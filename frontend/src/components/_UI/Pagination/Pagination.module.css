@@ -1,0 +1,40 @@
+.pagination {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.pagination__actions {
+  display: flex;
+  font-size: 1.2rem;
+  gap: 5px;
+}
+
+.pagination__item {
+  align-items: center;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  height: 35px;
+  width: 35px;
+}
+
+.pagination__item--active {
+  background: hsl(223, 22%, 20%);
+  color: hsl(223, 31%, 84%);
+  font-weight: 600;
+}
+
+.pagination__item--disabled {
+  color: #ddd;
+  cursor: not-allowed;
+}
+
+@media (min-width: 800px) {
+  .pagination__actions {
+    font-size: 1.4rem;
+  }
+}

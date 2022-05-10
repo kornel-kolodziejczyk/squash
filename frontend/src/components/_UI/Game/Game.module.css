@@ -1,0 +1,73 @@
+.game {
+  background: hsl(0, 0%, 87%);
+  display: grid;
+  font-size: 1rem;
+  gap: 1px;
+  grid-template-columns: 1fr 5fr 5fr 2fr 2fr;
+}
+
+.game__cell {
+  align-content: center;
+  align-items: center;
+  background: hsl(0, 0%, 100%);
+  display: grid;
+  height: 100%;
+  justify-content: center;
+  justify-items: center;
+  padding: 7px 5px;
+}
+
+.game__cell--dark {
+  background: hsl(0, 0%, 95%);
+}
+
+.game__item {
+  border: none;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.game__link {
+  display: grid;
+  justify-items: center;
+}
+
+.game__points {
+  display: grid;
+  gap: 1px;
+}
+
+.game__scores {
+  display: grid;
+  gap: 1px;
+}
+
+.game__sets {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.game__users {
+  display: grid;
+  gap: 1px;
+}
+
+.game__unmatched {
+  font-weight: 600;
+}
+
+.game__walkowers {
+  display: grid;
+  font-weight: 600;
+  gap: 1px;
+}
+
+@media (min-width: 800px) {
+  .game {
+    font-size: 1.4rem;
+  }
+}

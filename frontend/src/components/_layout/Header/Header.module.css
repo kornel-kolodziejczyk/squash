@@ -1,0 +1,11 @@
+.header {
+  align-items: center;
+  background: hsl(223, 22%, 20%);
+  padding: 25px 20px;
+  gap: 30px;
+}
+
+.header_content {
+  display: flex;
+  justify-content: space-between;
+}

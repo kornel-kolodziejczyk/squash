@@ -1,0 +1,16 @@
+.footer {
+  background: hsl(223, 22%, 20%);
+  color: hsl(223, 31%, 84%);
+  font-weight: 600;
+  padding: 20px;
+}
+
+.footer__line {
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.05);
+  grid-column: span 2;
+  margin: 30px 0;
+}
+
+.footer__regulations {
+  text-align: end;
+}

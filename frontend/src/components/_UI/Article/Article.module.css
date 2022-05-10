@@ -1,0 +1,53 @@
+.article {
+  display: grid;
+  gap: 10px;
+}
+
+.article__date {
+  color: hsl(0, 0%, 40%);
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 0 10px;
+}
+
+.article__image {
+  width: 100%;
+}
+
+.article__text {
+  padding: 0 10px;
+  text-align: justify;
+}
+
+.article__title {
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 5px 10px 0;
+}
+
+@media (min-width: 500px) {
+  .article {
+    display: block;
+  }
+
+  .article__image {
+    border: 1px solid grey;
+    float: left;
+    margin: 10px 20px 20px 0;
+    width: 50%;
+  }
+}
+
+@media (min-width: 800px) {
+  .article__date {
+    padding: 0;
+  }
+
+  .article__text {
+    padding: 0;
+  }
+
+  .article__title {
+    padding: 5px 0 0;
+  }
+}

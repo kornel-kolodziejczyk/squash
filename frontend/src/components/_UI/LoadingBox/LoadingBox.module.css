@@ -1,0 +1,27 @@
+.loadingBox {
+  align-items: center;
+  color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  position: absolute;
+  font-size: 10rem;
+  font-weight: 600;
+  inset: 0;
+  top: 200px;
+  justify-content: center;
+  position: absolute;
+  z-index: 100;
+}
+
+.loadingBox__spinner {
+  animation: rotate infinite linear 1.5s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

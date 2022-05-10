@@ -1,0 +1,20 @@
+.articleList {
+  display: grid;
+}
+
+.articleList__actions {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 5px;
+  padding: 0 10px;
+}
+
+@media (min-width: 800px) {
+  .articleList__actions {
+    padding: 0;
+  }
+
+  .articleList__image {
+    border-radius: 5px;
+  }
+}

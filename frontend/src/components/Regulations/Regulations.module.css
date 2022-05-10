@@ -1,0 +1,8 @@
+.regulations__listItem {
+  padding: 5px;
+  text-indent: 5px;
+}
+
+.regulations__listItem--unordered {
+  list-style: square;
+}

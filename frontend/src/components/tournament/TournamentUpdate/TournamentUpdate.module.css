@@ -1,0 +1,9 @@
+.tournamentUpdate {
+  display: grid;
+  gap: 10px;
+}
+
+.tournamentUpdate__form {
+  display: grid;
+  gap: 10px;
+}

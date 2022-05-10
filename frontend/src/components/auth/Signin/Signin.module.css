@@ -1,0 +1,18 @@
+.signin {
+  display: grid;
+  gap: 20px;
+  max-width: 400px;
+  padding: 10px;
+}
+
+.signin__forget {
+  color: hsl(223, 31%, 84%);
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: end;
+}
+
+.signin__form {
+  display: grid;
+  gap: 10px;
+}

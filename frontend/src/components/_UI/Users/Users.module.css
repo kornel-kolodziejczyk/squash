@@ -1,0 +1,39 @@
+.users {
+  display: grid;
+  gap: 10px;
+}
+
+.users__list {
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: 600;
+  gap: 10px;
+}
+
+.users__form {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.users__removeButton {
+  cursor: pointer;
+  display: grid;
+}
+
+.users__user {
+  align-items: center;
+  background-color: hsl(0, 59%, 41%);
+  border: 1px solid hsl(0, 0%, 0%);
+  display: flex;
+  font-size: 1rem;
+  gap: 10px;
+  padding: 5px;
+}
+
+@media (min-width: 800px) {
+  .users__user {
+    font-size: 1.4rem;
+  }
+}

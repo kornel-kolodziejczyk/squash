@@ -1,0 +1,15 @@
+.groupGame {
+  display: grid;
+}
+
+.groupGame__actions {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(4, auto);
+  margin-top: 8px;
+}
+
+.groupGame__game {
+  background-color: #ddd;
+  padding: 1px;
+}

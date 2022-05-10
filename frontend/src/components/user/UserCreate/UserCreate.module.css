@@ -1,0 +1,10 @@
+.userCreate {
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+}
+
+.userCreate form {
+  display: grid;
+  gap: 10px;
+}

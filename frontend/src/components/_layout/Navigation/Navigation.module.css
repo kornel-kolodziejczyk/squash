@@ -1,0 +1,22 @@
+.navigation {
+  box-shadow: 0 1px 2px 0 hsla(0, 1%, 26%, 0.4);
+  z-index: 1;
+  padding-left: 10px;
+}
+
+.navigation_content {
+  display: flex;
+  font-weight: 600;
+  gap: 20px;
+  padding-block: 10px;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+@media (min-width: 800px) {
+  .navigation {
+    gap: 30px;
+  }
+}

@@ -1,0 +1,49 @@
+.userPanel {
+  align-items: center;
+  display: grid;
+  color: hsl(223, 31%, 84%);
+  font-weight: 600;
+}
+
+.userPanel__adminContent {
+  border-top: 1px solid rgba(227, 227, 227, 0.2);
+  border-bottom: 1px solid rgba(227, 227, 227, 0.2);
+  display: grid;
+  margin: 5px 0;
+  padding: 5px 0;
+}
+
+.userPanel__content {
+  background: hsl(223, 22%, 20%);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top: 1px solid rgba(227, 227, 227, 0.2);
+  box-shadow: 0 1px 5px 0 hsla(0, 1%, 26%, 0.4);
+  display: grid;
+  grid-template-columns: max-content;
+  padding: 5px;
+  position: absolute;
+  right: 0;
+  top: 30px;
+}
+
+.userPanel__dropdown {
+  display: grid;
+  position: relative;
+  z-index: 100;
+}
+
+.userPanel__icon {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  font-size: 3rem;
+}
+
+.userPanel__link {
+  padding: 10px 70px 10px 20px;
+}
+
+.userPanel__link:hover {
+  background: hsl(223, 22%, 30%);
+}

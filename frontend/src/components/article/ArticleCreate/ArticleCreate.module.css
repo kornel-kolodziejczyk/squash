@@ -1,0 +1,18 @@
+.articleCreate {
+  display: grid;
+  gap: 10px;
+}
+
+.articleCreate__form {
+  display: grid;
+  gap: 10px;
+}
+
+.articleCreate__image {
+  width: 100%;
+}
+
+.articleCreate__textarea {
+  height: 300px;
+  resize: none;
+}
